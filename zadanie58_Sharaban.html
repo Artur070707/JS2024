@@ -1,0 +1,27 @@
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+ <div style="color:red;font-size:24">
+ <script language="JavaScript">
+ var x=prompt("podaj pierwsza liczbe =","");
+ var liczba1_sha=parseInt(x);
+ var x=prompt("podaj pierwsza liczbe =","");
+ var liczba2_sha=parseInt(x);
+ 
+ if(liczba1_sha<liczba2_sha){
+ for(i=liczba1_sha;i<=liczba2_sha;i++){
+ if(i%2==1){
+ document.write("<p style='color:green'\"font-size:24px;\"><br>"+i+"<br></p>");}}}
+ else if(liczba1_sha>liczba2_sha){
+ for(i=liczba1_sha;i>liczba2_sha;i--){
+ if(i%2==1){
+ document.write("<p style='color:blue'\"font-size:24px;\"><br>"+i+"<br></p>");}}}
+ else if(liczba1_sha==liczba2_sha){
+ document.write("Brak <br>");
+ }
+ </script>
+ </div>
+</head>
+<body>
+</body>
+</html>
